@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15DA95851995EE5800AE7A31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DA95841995EE5800AE7A31 /* AppDelegate.swift */; };
+		15DA95871995EE5800AE7A31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DA95861995EE5800AE7A31 /* ViewController.swift */; };
+		15DA958A1995EE5800AE7A31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15DA95881995EE5800AE7A31 /* Main.storyboard */; };
+		15DA958C1995EE5800AE7A31 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15DA958B1995EE5800AE7A31 /* Images.xcassets */; };
+		15DA95981995EE5800AE7A31 /* CarLoanCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DA95971995EE5800AE7A31 /* CarLoanCalculatorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15DA95921995EE5800AE7A31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15DA95771995EE5700AE7A31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15DA957E1995EE5800AE7A31;
+			remoteInfo = CarLoanCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15DA957F1995EE5800AE7A31 /* CarLoanCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarLoanCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15DA95831995EE5800AE7A31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15DA95841995EE5800AE7A31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15DA95861995EE5800AE7A31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15DA95891995EE5800AE7A31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15DA958B1995EE5800AE7A31 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		15DA95911995EE5800AE7A31 /* CarLoanCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarLoanCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15DA95961995EE5800AE7A31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15DA95971995EE5800AE7A31 /* CarLoanCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarLoanCalculatorTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15DA957C1995EE5800AE7A31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15DA958E1995EE5800AE7A31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15DA95761995EE5700AE7A31 = {
+			isa = PBXGroup;
+			children = (
+				15DA95811995EE5800AE7A31 /* CarLoanCalculator */,
+				15DA95941995EE5800AE7A31 /* CarLoanCalculatorTests */,
+				15DA95801995EE5800AE7A31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15DA95801995EE5800AE7A31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15DA957F1995EE5800AE7A31 /* CarLoanCalculator.app */,
+				15DA95911995EE5800AE7A31 /* CarLoanCalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15DA95811995EE5800AE7A31 /* CarLoanCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				15DA95841995EE5800AE7A31 /* AppDelegate.swift */,
+				15DA95861995EE5800AE7A31 /* ViewController.swift */,
+				15DA95881995EE5800AE7A31 /* Main.storyboard */,
+				15DA958B1995EE5800AE7A31 /* Images.xcassets */,
+				15DA95821995EE5800AE7A31 /* Supporting Files */,
+			);
+			path = CarLoanCalculator;
+			sourceTree = "<group>";
+		};
+		15DA95821995EE5800AE7A31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15DA95831995EE5800AE7A31 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15DA95941995EE5800AE7A31 /* CarLoanCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				15DA95971995EE5800AE7A31 /* CarLoanCalculatorTests.swift */,
+				15DA95951995EE5800AE7A31 /* Supporting Files */,
+			);
+			path = CarLoanCalculatorTests;
+			sourceTree = "<group>";
+		};
+		15DA95951995EE5800AE7A31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15DA95961995EE5800AE7A31 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15DA957E1995EE5800AE7A31 /* CarLoanCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15DA959B1995EE5800AE7A31 /* Build configuration list for PBXNativeTarget "CarLoanCalculator" */;
+			buildPhases = (
+				15DA957B1995EE5800AE7A31 /* Sources */,
+				15DA957C1995EE5800AE7A31 /* Frameworks */,
+				15DA957D1995EE5800AE7A31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarLoanCalculator;
+			productName = CarLoanCalculator;
+			productReference = 15DA957F1995EE5800AE7A31 /* CarLoanCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15DA95901995EE5800AE7A31 /* CarLoanCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15DA959E1995EE5800AE7A31 /* Build configuration list for PBXNativeTarget "CarLoanCalculatorTests" */;
+			buildPhases = (
+				15DA958D1995EE5800AE7A31 /* Sources */,
+				15DA958E1995EE5800AE7A31 /* Frameworks */,
+				15DA958F1995EE5800AE7A31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15DA95931995EE5800AE7A31 /* PBXTargetDependency */,
+			);
+			name = CarLoanCalculatorTests;
+			productName = CarLoanCalculatorTests;
+			productReference = 15DA95911995EE5800AE7A31 /* CarLoanCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15DA95771995EE5700AE7A31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Churowa;
+				TargetAttributes = {
+					15DA957E1995EE5800AE7A31 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					15DA95901995EE5800AE7A31 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 15DA957E1995EE5800AE7A31;
+					};
+				};
+			};
+			buildConfigurationList = 15DA957A1995EE5700AE7A31 /* Build configuration list for PBXProject "CarLoanCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15DA95761995EE5700AE7A31;
+			productRefGroup = 15DA95801995EE5800AE7A31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15DA957E1995EE5800AE7A31 /* CarLoanCalculator */,
+				15DA95901995EE5800AE7A31 /* CarLoanCalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15DA957D1995EE5800AE7A31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15DA958A1995EE5800AE7A31 /* Main.storyboard in Resources */,
+				15DA958C1995EE5800AE7A31 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15DA958F1995EE5800AE7A31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15DA957B1995EE5800AE7A31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15DA95871995EE5800AE7A31 /* ViewController.swift in Sources */,
+				15DA95851995EE5800AE7A31 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15DA958D1995EE5800AE7A31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15DA95981995EE5800AE7A31 /* CarLoanCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15DA95931995EE5800AE7A31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15DA957E1995EE5800AE7A31 /* CarLoanCalculator */;
+			targetProxy = 15DA95921995EE5800AE7A31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15DA95881995EE5800AE7A31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15DA95891995EE5800AE7A31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15DA95991995EE5800AE7A31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15DA959A1995EE5800AE7A31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15DA959C1995EE5800AE7A31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = CarLoanCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		15DA959D1995EE5800AE7A31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = CarLoanCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		15DA959F1995EE5800AE7A31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CarLoanCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarLoanCalculator.app/CarLoanCalculator";
+			};
+			name = Debug;
+		};
+		15DA95A01995EE5800AE7A31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CarLoanCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarLoanCalculator.app/CarLoanCalculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15DA957A1995EE5700AE7A31 /* Build configuration list for PBXProject "CarLoanCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15DA95991995EE5800AE7A31 /* Debug */,
+				15DA959A1995EE5800AE7A31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15DA959B1995EE5800AE7A31 /* Build configuration list for PBXNativeTarget "CarLoanCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15DA959C1995EE5800AE7A31 /* Debug */,
+				15DA959D1995EE5800AE7A31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		15DA959E1995EE5800AE7A31 /* Build configuration list for PBXNativeTarget "CarLoanCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15DA959F1995EE5800AE7A31 /* Debug */,
+				15DA95A01995EE5800AE7A31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15DA95771995EE5700AE7A31 /* Project object */;
+}
