@@ -35,8 +35,9 @@ class ViewController: UIViewController {
     }
 
     func valueChanged(sender:UISlider) {
-        numberOfMonths.text = "\(self.monthsSlider.value)"
-        paymentText.text = "\(self.paymentPerPeriod(monthsSlider.value)) dollares"
+        let months = Int(self.monthsSlider.value)
+        numberOfMonths.text = "\(months)"
+        paymentText.text = "\(self.paymentPerPeriod(Float(months))) dollares"
     }
     
     override func didReceiveMemoryWarning() {
