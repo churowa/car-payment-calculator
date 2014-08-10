@@ -16,20 +16,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Monthly Payment" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g3e-xQ-zgq">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Monthly Payment" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g3e-xQ-zgq">
                                 <rect key="frame" x="233" y="336" width="134" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="XDL-Fx-6ph">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="48" minValue="0.0" maxValue="84" translatesAutoresizingMaskIntoConstraints="NO" id="XDL-Fx-6ph">
                                 <rect key="frame" x="241" y="125" width="118" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="114" id="Y4d-3x-EUC"/>
+                                </constraints>
                             </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="number of months" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XyQ-Vy-0yx">
+                                <rect key="frame" x="233" y="108" width="141" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XDL-Fx-6ph" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="105" id="52K-jj-nZ4"/>
+                            <constraint firstItem="XDL-Fx-6ph" firstAttribute="centerX" secondItem="XyQ-Vy-0yx" secondAttribute="centerX" constant="-3.5" id="Anm-hp-ZPs"/>
+                            <constraint firstItem="XDL-Fx-6ph" firstAttribute="top" secondItem="XyQ-Vy-0yx" secondAttribute="bottom" constant="-4" id="Dfh-ym-UQS"/>
+                            <constraint firstAttribute="centerX" secondItem="g3e-xQ-zgq" secondAttribute="centerX" id="cND-ln-F4x"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="g3e-xQ-zgq" secondAttribute="bottom" constant="243" id="fAB-k3-rNd"/>
+                            <constraint firstAttribute="centerX" secondItem="XDL-Fx-6ph" secondAttribute="centerX" id="wR4-1k-nTl"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="monthsSlider" destination="XDL-Fx-6ph" id="uaC-Lp-Pg8"/>
+                        <outlet property="numberOfMonths" destination="XyQ-Vy-0yx" id="rb8-6l-Zym"/>
                         <outlet property="paymentText" destination="g3e-xQ-zgq" id="Gij-ux-nhj"/>
                     </connections>
                 </viewController>
