@@ -10,34 +10,23 @@ import UIKit
 
 class ViewController: UIViewController {
     
-//    let interestRate: Float = 1.0
-//    
-//    let interestPerPeriod = interestRate/100/12
-//    
-//    let numberOfPeriods = 60.0
-//    
-//    let originalPrincipal = 28498.0
-//    
-//    let numerator =  pow((1.0 + interestPerPeriod), numberOfPeriods)
-//    let denominator = pow((1.0 + interestPerPeriod), numberOfPeriods)-1.0
-//    
-//    let paymentPerPeriod = originalPrincipal * interestPerPeriod * (numerator/denominator)
-    
     @IBOutlet var numberOfMonths:UILabel!
     @IBOutlet var monthsSlider:UISlider!
     @IBOutlet var paymentText:UILabel!
+    @IBOutlet var principalAmount:UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        numberOfMonths.text = "\(self.monthsSlider.value)"
-        paymentText.text = "\(self.paymentPerPeriod(monthsSlider.value)) dollares"
+        principalAmount.text = "26000.0"
+        numberOfMonths.text = "\(self.monthsSlider.value) months"
+        paymentText.text = "\(self.paymentPerPeriod()) dollares"
         monthsSlider.addTarget(self, action: "valueChanged:", forControlEvents: UIControlEvents.ValueChanged)
     }
 
     func valueChanged(sender:UISlider) {
         let months = Int(self.monthsSlider.value)
-        numberOfMonths.text = "\(months)"
-        paymentText.text = "\(self.paymentPerPeriod(Float(months))) dollares"
+        numberOfMonths.text = "\(months) months"
+        paymentText.text = "\(self.paymentPerPeriod()) dollares"
     }
     
     override func didReceiveMemoryWarning() {
@@ -45,13 +34,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func paymentPerPeriod(numberOfPeriods:Float) -> Float {
+    func paymentPerPeriod() -> Float {
         let interestRate:Float = 1.0
         
         let interestPerPeriod:Float = interestRate/100/12
-        let numPeriods:Float = numberOfPeriods
+        let numPeriods:Float = monthsSlider.value
         
-        let originalPrincipal:Float = 28498.0
+        let originalPrincipal:Float = (principalAmount.text as NSString).floatValue
         
         let numerator:Float =  pow((1.0 + interestPerPeriod), numPeriods)
         let denominator:Float = pow((1.0 + interestPerPeriod), numPeriods)-1.0

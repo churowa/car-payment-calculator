@@ -34,14 +34,24 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Principal" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xun-ux-2pO">
+                                <rect key="frame" x="178" y="20" width="250" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="09E-MM-n7c"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="XDL-Fx-6ph" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="105" id="52K-jj-nZ4"/>
+                            <constraint firstItem="xun-ux-2pO" firstAttribute="centerX" secondItem="XyQ-Vy-0yx" secondAttribute="centerX" constant="-0.5" id="7w3-QX-u31"/>
                             <constraint firstItem="XDL-Fx-6ph" firstAttribute="centerX" secondItem="XyQ-Vy-0yx" secondAttribute="centerX" constant="-3.5" id="Anm-hp-ZPs"/>
                             <constraint firstItem="XDL-Fx-6ph" firstAttribute="top" secondItem="XyQ-Vy-0yx" secondAttribute="bottom" constant="-4" id="Dfh-ym-UQS"/>
                             <constraint firstAttribute="centerX" secondItem="g3e-xQ-zgq" secondAttribute="centerX" id="cND-ln-F4x"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="g3e-xQ-zgq" secondAttribute="bottom" constant="243" id="fAB-k3-rNd"/>
+                            <constraint firstItem="xun-ux-2pO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="s1Z-OD-Gpt"/>
                             <constraint firstAttribute="centerX" secondItem="XDL-Fx-6ph" secondAttribute="centerX" id="wR4-1k-nTl"/>
                         </constraints>
                     </view>
@@ -49,6 +59,7 @@
                         <outlet property="monthsSlider" destination="XDL-Fx-6ph" id="uaC-Lp-Pg8"/>
                         <outlet property="numberOfMonths" destination="XyQ-Vy-0yx" id="rb8-6l-Zym"/>
                         <outlet property="paymentText" destination="g3e-xQ-zgq" id="Gij-ux-nhj"/>
+                        <outlet property="principalAmount" destination="xun-ux-2pO" id="bup-yQ-wS6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
