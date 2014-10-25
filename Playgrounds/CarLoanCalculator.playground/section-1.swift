@@ -2,12 +2,20 @@
 
 import UIKit
 
-let interestRate = 1.0
+println("Interest Rate")
+let interestRate = 5.0
+
+println("Interest Per Period")
 let interestPerPeriod = interestRate/100/12
 
-var numberOfPeriods = 60.0
+println("Years")
+var numberOfYears = 5.0
 
-let originalPrincipal = 28498.0
+println("Months")
+var numberOfPeriods = numberOfYears * 12.0
+
+println("Full Cost Of Item")
+let originalPrincipal = 12000.0
 
 //payment per period = P* i* (1+i)^n/((1+i)^n-1)
 
